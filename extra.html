@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#9254F3 ;
+    color: #AEB6BF;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+	list-style-type: none;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #F39C12;
+    color: #283747;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #BDA3E7;
+}
+.aside {
+    background-color: #F39C12;
+    padding: 15px;
+    color: #1B2631;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #F39C12;
+    color: #1B2631;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body bgcolor="#AEB6BF">
+
+<div class="header">
+  <h1>Currículum Vitae</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="#presentation"><font color="#6300C1"><b>My presentation</b></font></a></li>
+    <li><a href="#knwldg"><font color="#6300C1"><b>English Knowledge</b></font></a></li>
+    <li><a href="#song"><font color="#6300C1"><b>Favorite Song</b></font></a></li>
+    <li><a href="#camp"><font color="#6300C1"><b>Camp Safe Training</b></font></a></li>
+    <li><a href="#social"><font color="#6300C1"><b>Social</b></font></a></li>
+
+  </ul>
+</div>
+
+<div class="col-6">
+  <h1 id="presentation">My Presentation</h1>
+  <br><embed src="Docs/presentation.pdf" type="application/pdf" align="center" width="650" height="350"></br>
+  <h1 id="knwldg">English Knowledge in CCUSA</h1>
+  <br><video src="Video/ccusa.mp4" width="600" height="350" controls></video></br>
+  <h1 id="song">Favorite Song</h1>
+  <br><audio src="musica/neon.mp3" align="center" controls></audio></br>
+  <h1 id="camp">Camp Safe Training</h1>
+  <img src="Docs/camp.png" width="600" height="350">
+  <h1 id="social">Social</h1>
+  <img src="Imagen/reunion.png" width="600" height="350">
+</div>
+
+
+
+<div class="col-3 right">
+  <div class="aside">
+  	<img src="Imagen/foto.jpg" width="280" height="280">
+    <h2>Personalidad</h2>
+    <p>Analítico, enérgico, proactivo, autodidacta, resiliente</p>
+    <h2>Hobbies</h2>
+    <ul>
+	    <li>Diseñar sistemas</li>
+	    <li>Musica</li>
+	    <li>Escribir</li>
+	    <li>Leer</li>
+	    <li>Bailar</li>
+ 	</ul>
+    <h2>Intereses</h2>
+    <ul>
+	    <li>Bases de datos</li>
+	    <li>Sistemas embebidos</li>
+	    <li>Programación en C</li>
+	    <li>Negocios</li>
+	    <li>Psicología</li>
+	    <li>Filosofía</li>
+	    <li>Inglés</li>
+	</ul>
+    <h2>Conocimiento en las tecnologías</h2>
+	<ul>
+	    <li>Java</li>
+	    <li>C</li>
+	    <li>SQL</li>
+	    <li>Python</li>
+	    <li>Xml</li>
+	</ul>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <a href="index.html"><img src="icon/about.png" width="80" height="80" align="right"></a>
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div>
+
+</body>
+</html>

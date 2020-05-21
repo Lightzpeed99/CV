@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#3498DB ;
+    color: #283747;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+	list-style-type: none;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #F39C12;
+    color: #283747;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #85C1E9;
+}
+.aside {
+    background-color: #F39C12;
+    padding: 15px;
+    color: #1B2631;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #F39C12;
+    color: #1B2631;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body bgcolor="#808B96">
+
+<div class="header">
+  <h1>Currículum Vitae</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="#informacion"><font color="#6300C1"><b>Información General</b></font></a></li>
+    <li><a href="#experiencia"><font color="#6300C1"><b>Experiencia Profesional</b></font></a></li>
+    <li><a href="#objetivo"><font color="#6300C1"><b>Objetivo Profesional</b></font></a></li>
+    <li><a href="#formacion"><font color="#6300C1"><b>Formación Académica</b></font></a></li>
+    <li><a href="#contacto"><font color="#6300C1"><b>Información de contacto</b></font></a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+  <h1 id="informacion">Información General</h1>
+  <p>Nombre(s): José Antonio</p>
+  <p>Apellido(s): Almeida Lara</p>
+  <p>Fecha de nacimiento: 15 de Enero del 1999.</p>
+  <p>Lugar de residencia: Calle Úrsulo Galván #16, Colonia Libertad Agrarista.</p>
+  <p>Escolaridad: Cursando Licenciatura Ingeniería en Sistemas Computacionales en el Tecnológico de Orizaba.</p>
+  <p>Empleo: Programador en VRCE Automotríz.</p>
+  <h1 id="experiencia">Experiencia Profesional</h1>
+  <p>Trabajo: Programador en VRCE Automotríz.</p>
+  <p>Labor: Diseñar y Programar Sistemas Microembebidos.</p>
+  <p>Desde: 09 de Julio del 2020.</p>
+  <h1 id="objetivo">Objetivo Profesional</h1>
+  <p>Ser una persona íntegra que brinde recursos y servicios en pro de la sociedad a través de la tecnología e implementación de sistemas.</p>
+  <h1 id="formacion">Formación Académica</h1>
+  <p>Primaria: Escuela Primaria Venustiana Carranza.</p>
+  <p>Secundaria: Escuela Secundaria Técnica Industrial #4.</p>
+  <p>Preparatoria: Centro de Bachilleres Tecnologico Industrial y de Servicios #192.</p>
+  <p>Universidad: Instituto Tecnológico de Orizaba - (Cursando 6° Semestre).</p>
+  <h1 id="contacto">Información de Contacto</h1>
+  <p>Teléfono: 272-233-75-99</p>
+  <p>Correo electrónico: Lightzpeed99@hotmail.com</p>
+  <p>Skype: Antonio Almeida</p>
+  <p>Facebook: <a href="https://www.facebook.com/LightSpeed99">Lara Ls</a></p>
+  <p>YouTube: <a href="https://www.youtube.com/channel/UCXOVhT_GKf_iLFJVsnzwp2Q">Lightning Shapes</a></p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.035570319695!2d-97.08410958562663!3d18.841086164211625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4fd42ca5b9271%3A0x7c6cdb1cc13ee2e!2sEmiliano%20Zapata%2042%2C%20Agrarista%2C%2094390%20Orizaba%2C%20Ver.!5e0!3m2!1ses!2smx!4v1583945506381!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<div class="col-3 right">
+  <div class="aside">
+  	<img src="Imagen/yo.jpg" width="280" height="250">
+    <h2>Personalidad</h2>
+    <p>Analítico, enérgico, proactivo, autodidacta, resiliente</p>
+    <h2>Hobbies</h2>
+    <ul>
+	    <li>Diseñar sistemas</li>
+	    <li>Musica</li>
+	    <li>Escribir</li>
+	    <li>Leer</li>
+	    <li>Bailar</li>
+ 	</ul>
+    <h2>Intereses</h2>
+    <ul>
+	    <li>Bases de datos</li>
+	    <li>Sistemas embebidos</li>
+	    <li>Programación en C</li>
+	    <li>Negocios</li>
+	    <li>Psicología</li>
+	    <li>Filosofía</li>
+	    <li>Inglés</li>
+	</ul>
+    <h2>Conocimiento en las tecnologías</h2>
+	<ul>
+	    <li>Java</li>
+	    <li>C</li>
+	    <li>SQL</li>
+	    <li>Python</li>
+	    <li>Xml</li>
+	</ul>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <a href="extra.html"><img src="icon/about.png" width="80" height="80" align="right"></a>
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div>
+
+</body>
+</html>
